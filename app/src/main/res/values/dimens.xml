@@ -1,0 +1,3 @@
+<resources>
+    <integer name="animation_dur_medium">1500</integer>
+</resources>

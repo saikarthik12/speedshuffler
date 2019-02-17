@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#180b0b">
+
+    <Button
+        android:id="@+id/heavymetal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+
+        android:text="Heavy Metal" />
+
+    <Button
+        android:id="@+id/rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heavymetal"
+        android:layout_alignBottom="@+id/heavymetal"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/heavymetal"
+
+        android:text="Rock" />
+
+    <Button
+        android:id="@+id/hardrock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rock"
+        android:layout_alignBottom="@+id/rock"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/classical"
+
+        android:text="Hard Rock" />
+
+    <Button
+        android:id="@+id/alternative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alternative"
+        android:layout_alignStart="@+id/heavymetal"
+
+        android:layout_below="@+id/heavymetal"
+        android:layout_marginTop="21dp"
+         />
+
+    <Button
+        android:id="@+id/classical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jazz"
+
+        android:layout_alignStart="@+id/rock"
+        android:text="Classical" />
+
+    <Button
+        android:id="@+id/pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/classical"
+        android:layout_alignBottom="@+id/classical"
+
+        android:layout_alignStart="@+id/hardrock"
+        android:text="pop" />
+
+    <Button
+        android:id="@+id/jazz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/alternative"
+        android:layout_alignStart="@+id/alternative"
+        android:layout_below="@+id/alternative"
+
+        android:layout_marginTop="25dp"
+        android:text="jazz" />
+
+    <Button
+        android:id="@+id/rap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/jazz"
+        android:layout_alignBottom="@+id/jazz"
+        android:layout_alignStart="@+id/pop"
+        android:text="rap" />
+
+    <Button
+        android:id="@+id/confirmgenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/classical"
+        android:layout_below="@+id/jazz"
+        android:text="Confirm" />
+</RelativeLayout>
