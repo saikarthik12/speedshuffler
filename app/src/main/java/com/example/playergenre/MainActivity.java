@@ -32,6 +32,7 @@ import com.example.playergenre.adapter.SimpleRecyclerAdapter;
 
 import java.util.ArrayList;
 //firstcomment -by Sai
+//secondcomment -by aravind
 
 import static com.example.playergenre.playbgmusic.mDatabaseHelper;
 
