@@ -31,7 +31,8 @@ import android.widget.Toast;
 import com.example.playergenre.adapter.SimpleRecyclerAdapter;
 
 import java.util.ArrayList;
-//first comment by sai and aravind.
+//firstcomment -by Sai
+//secondcomment -by aravind
 
 import static com.example.playergenre.playbgmusic.mDatabaseHelper;
 
